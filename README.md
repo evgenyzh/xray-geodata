@@ -3,9 +3,9 @@
 Minimal, curated `geosite.dat` and `geoip.dat` for [Xray-core](https://github.com/XTLS/Xray-core),
 built automatically from pinned upstream sources.
 
-This repository contains **only build artifacts** — no source lists, no
-templates, no credentials. Sources are described in `manifest.json` and in
-[LICENSE-NOTICES.md](LICENSE-NOTICES.md).
+This repository contains **build artifacts, this README and license notices** —
+no source lists, no templates, no credentials. Sources are described in
+`manifest.json` and in [LICENSE-NOTICES.md](LICENSE-NOTICES.md).
 
 ## Artifacts
 
