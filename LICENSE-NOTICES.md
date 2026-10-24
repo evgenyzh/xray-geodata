@@ -19,7 +19,7 @@ source tree, but they are derived from the upstream datasets listed below.
 ```
 MIT License
 
-Copyright (c) 2018-2026 V2Fly Community
+Copyright (c) 2018-2019 V2Ray
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
