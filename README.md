@@ -35,6 +35,7 @@ Immutable, versioned downloads are attached to
 ```bash
 curl -fSLO https://raw.githubusercontent.com/evgenyzh/xray-geodata/release/geosite.dat
 curl -fSLO https://raw.githubusercontent.com/evgenyzh/xray-geodata/release/geoip.dat
+curl -fSLO https://raw.githubusercontent.com/evgenyzh/xray-geodata/release/manifest.json
 curl -fSLO https://raw.githubusercontent.com/evgenyzh/xray-geodata/release/SHA256SUMS
 sha256sum -c SHA256SUMS
 ```
