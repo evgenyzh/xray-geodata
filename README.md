@@ -39,6 +39,12 @@ curl -fSLO https://raw.githubusercontent.com/evgenyzh/xray-geodata/release/SHA25
 sha256sum -c SHA256SUMS
 ```
 
+> `raw.githubusercontent.com` is CDN-cached for up to 5 minutes. For a few
+> minutes after a new build, the `release` branch files can be a mix of old and
+> new. Retry, or use the immutable assets attached to the
+> [release](https://github.com/evgenyzh/xray-geodata/releases) for strict
+> verification.
+
 Check the version, source pins and category counts:
 
 ```bash
