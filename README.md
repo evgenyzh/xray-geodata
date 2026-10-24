@@ -19,7 +19,8 @@ no source lists, no templates, no credentials. Sources are described in
 | `LICENSE-NOTICES.md` | upstream attribution and licenses |
 | `LICENSE-GPL-3.0.txt` | full GPL-3.0 text (derived geoip/ads data) |
 
-Stable raw URLs (updated in place on every release, orphan `release` branch):
+Stable raw URLs (updated in place on every content-changing release, orphan
+`release` branch):
 
 ```
 https://raw.githubusercontent.com/evgenyzh/xray-geodata/release/geosite.dat
@@ -83,6 +84,9 @@ and its rule count; an unknown category makes `xray` fail with
 ## Builds
 
 - Daily at 04:00 UTC, on demand, and on changes to the private build inputs.
+- A new release is published only when `geosite.dat`/`geoip.dat` change;
+  unchanged builds are verified and uploaded to the private workflow run, not
+  republished (avoids mirror and node churn).
 - Built with Go 1.26 from a pinned
   [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community)
   commit; geosite is filtered to the needed categories, geoip is filtered from
