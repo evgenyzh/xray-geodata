@@ -1,0 +1,207 @@
+{
+  "schema": 1,
+  "project": "xray-geodata",
+  "version": "v2026.11.20.447366410771",
+  "built_at": "2026-11-20T12:33:17Z",
+  "manager_commit": "9501b564e006fc858f6da8febcb54d7fdc6282dc",
+  "generator": {
+    "repo": "github.com/evgenyzh/xray-geodata-build",
+    "path": ".",
+    "revision": "469f6aef79a543e938e5d9e0faa4430f852983e4",
+    "input_sha256": "1963f6fc52600e727fbc9de5c7a4b8c5b256067945cf39d8bdf96b46f3ae3dfa"
+  },
+  "manager_inputs": {
+    "sha256": "57ee108eeb8e18dcb75f02fc571f5f3f3301ffc75abc36d1d954f79e0b6202ee",
+    "files": 101,
+    "runtime_repo_commit": "80b71e6efa990d210e411d086a05bf74ab1989c7"
+  },
+  "toolchain": {
+    "go": "go1.26.10",
+    "python": "3.14.4"
+  },
+  "sources": [
+    {
+      "fetched_at": "2026-11-20T12:33:15Z",
+      "license": "community list (no explicit license)",
+      "lines": 486,
+      "name": "community-antifilter-download",
+      "notes": "live list; source=live; sha256 pins this build",
+      "path": "work/src/antifilter-domains.lst",
+      "role": "ru-blocked",
+      "sha256": "1fbb9b3b8862814c84371ff96b59f7b14bd3bcc7462a8396886d222ed8973e94",
+      "size": 7351,
+      "url": "https://community.antifilter.download/list/domains.lst"
+    },
+    {
+      "fetched_at": "2026-11-20T12:33:15Z",
+      "license": "GPL-3.0",
+      "lines": 184867,
+      "name": "runetfreedom-category-ads-all",
+      "notes": "upstream category-ads-all; source=live; live list",
+      "path": "work/src/category-ads-all.txt",
+      "role": "geosite-source",
+      "sha256": "80dff3d87f03530e19d6694def8be808551c08de397318e66a2e02067f9c1cb4",
+      "size": 5182307,
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geosite/release/category-ads-all.txt"
+    },
+    {
+      "fetched_at": "2026-11-20T12:33:16Z",
+      "license": "GPL-3.0",
+      "name": "runetfreedom-geoip",
+      "notes": "upstream geoip.dat; source=live; filtered to locked categories",
+      "path": "work/src/geoip-upstream.dat",
+      "role": "geoip",
+      "sha256": "ffa076098e7f5fc7c98882899b817b57e9272fd64e352ef119724138e6809906",
+      "size": 17955347,
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geoip/release/geoip.dat"
+    },
+    {
+      "commit": "9cad4889b6f1c51bd84cb8a0d95dbc1a992251a4",
+      "fetched_at": "2026-11-20T12:33:15Z",
+      "license": "MIT",
+      "lines": 135,
+      "name": "v2fly-category-media-ru-blocked",
+      "notes": "media list snapshot from pinned v2fly tree",
+      "path": "work/src/category-media-ru-blocked.txt",
+      "role": "ru-blocked",
+      "sha256": "4f4ac4d21bc94470217742d4fb646c57036c674d9fa1edafe634ba577ac87743",
+      "size": 1846,
+      "url": "https://github.com/v2fly/domain-list-community/blob/9cad4889b6f1c51bd84cb8a0d95dbc1a992251a4/data/category-media-ru-blocked"
+    },
+    {
+      "commit": "9cad4889b6f1c51bd84cb8a0d95dbc1a992251a4",
+      "fetched_at": "2026-11-20T12:33:15Z",
+      "immutable": true,
+      "license": "MIT",
+      "name": "v2fly-domain-list-community",
+      "notes": "builder (go) + data/ tree; tarball sha256 pinned",
+      "path": "work/src/v2fly-domain-list-community-9cad4889b6f1c51bd84cb8a0d95dbc1a992251a4.tar.gz",
+      "role": "builder",
+      "sha256": "19c4908eba98f869065beff50affc19a572de2cf96bf7d32a4de243c63765a47",
+      "size": 349907,
+      "url": "https://codeload.github.com/v2fly/domain-list-community/tar.gz/9cad4889b6f1c51bd84cb8a0d95dbc1a992251a4"
+    }
+  ],
+  "categories": {
+    "geosite": {
+      "avito": 5,
+      "bestbuy": 82,
+      "bing": 40,
+      "category-ads-all": 184867,
+      "category-ai-!cn": 205,
+      "category-ai-chat-!cn": 205,
+      "category-anticensorship": 126,
+      "category-browser-!cn": 36,
+      "category-cdn-!cn": 195,
+      "category-dev": 668,
+      "category-ecommerce-ru": 201,
+      "category-entertainment": 2149,
+      "category-gov-ru": 145,
+      "category-orgs": 122,
+      "category-porn": 6660,
+      "category-public-tracker": 431,
+      "category-retail-ru": 82,
+      "category-ru": 1144,
+      "category-speedtest": 328,
+      "category-us": 2619,
+      "category-web-archive": 18,
+      "cisco": 121,
+      "discord": 28,
+      "epicgames": 33,
+      "facebook": 397,
+      "google": 964,
+      "mailru": 298,
+      "meta": 554,
+      "openai": 25,
+      "ozon": 63,
+      "redhat": 2,
+      "ru-blocked": 546,
+      "steam": 61,
+      "telegram": 21,
+      "twitter": 24,
+      "vk": 52,
+      "wildberries": 114,
+      "yandex": 155,
+      "youtube": 178,
+      "zoom": 3
+    },
+    "geoip": {
+      "cloudflare": 908,
+      "cloudfront": 249,
+      "facebook": 122,
+      "fastly": 96,
+      "google": 7090,
+      "private": 28,
+      "ru": 25365,
+      "telegram": 12,
+      "twitter": 20,
+      "us": 259036
+    }
+  },
+  "summary": {
+    "geosite_categories": 40,
+    "geosite_rules": 203967,
+    "geoip_categories": 10,
+    "geoip_rules": 292926,
+    "ru_blocked_rules": 546,
+    "must_have_domains": 170
+  },
+  "curation": [
+    {
+      "path": "curation/category-us.txt",
+      "sha256": "884d3bb615b03076d595fdd87586197e702f11192e80b411a012bd1190d11779",
+      "size": 694
+    },
+    {
+      "path": "curation/extra.txt",
+      "sha256": "9f8f0937ce91f1297c0d454ec0b9d4d5e9937e8a20d390f941f7e921b8d06146",
+      "size": 479
+    },
+    {
+      "path": "curation/libraries.txt",
+      "sha256": "90b63ee5eddd15e5816d8cc28108eea1c87b25007bf9dae308156f87b1e25635",
+      "size": 602
+    },
+    {
+      "path": "curation/must-have.txt",
+      "sha256": "f0d037b0f6d114bbf9242c51cfc4873754419058f9a1d3247da6255dce7321c2",
+      "size": 2414
+    },
+    {
+      "path": "curation/trackers.txt",
+      "sha256": "e2dc5741159446fe557a6d3a76b77adbe85bac70e62ecff41ca7b44cf1c1692b",
+      "size": 182
+    },
+    {
+      "path": "curation/deny/README.md",
+      "sha256": "8940ec358e59c03daf00b3299e8ffad2364deb9f7a6f02d37c0c0ad64433769a",
+      "size": 1714
+    },
+    {
+      "path": "curation/deny/gambling.txt",
+      "sha256": "d81860f7273e1b74388969ae37f2360b0588038663d0d17001e6ca4a1b1fc76d",
+      "size": 824
+    }
+  ],
+  "artifacts": {
+    "geosite.dat": {
+      "sha256": "a5df6269ef3e2908b822ed28e01408deb17a933e68038a66610a3499ed84b7f8",
+      "size": 5212287,
+      "categories": 40,
+      "rules": 203967
+    },
+    "geoip.dat": {
+      "sha256": "62265a586fc22ac102b971434c3ac0fc227a07f270f9eb268c9760d52e5c82e0",
+      "size": 4695072,
+      "categories": 10,
+      "rules": 292926
+    }
+  },
+  "test": {
+    "status": "ok",
+    "xray_version": "Xray 26.3.27 (Xray, Penetrates Everything.) d2758a0 (go1.26.1 linux/amd64)",
+    "exit_code": 0,
+    "config_categories": 50,
+    "skipped": false
+  }
+}
